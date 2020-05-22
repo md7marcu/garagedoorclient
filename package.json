@@ -1,0 +1,52 @@
+{
+  "name": "GarageDoorClient",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/runtime": "^7.5.5",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.8.0",
+    "babel-preset-react-native": "^4.0.1",
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "eslint": "^6.1.0",
+    "jest": "^24.8.0",
+    "jest-react-native": "^18.0.0",
+    "metro-react-native-babel-preset": "^0.56.0",
+    "react-navigation": "^3.0.9",
+    "react-test-renderer": "16.8.6",
+    "remote-redux-devtools": "^0.5.14",
+    "remotedev-server": "^0.3.1"
+  },
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "dependencies": {
+    "@aspnet/signalr": "^1.1.4",
+    "acorn": "^6.0.4",
+    "create-react-class": "^15.6.3",
+    "lodash": "^4.17.15",
+    "native-base": "^2.13.7",
+    "prettier": "^1.15.3",
+    "querystring": "^0.2.0",
+    "react": "16.8.6",
+    "react-native": "0.60.5",
+    "react-native-gesture-handler": "^1.4.1",
+    "react-native-vector-icons": "^6.1.0",
+    "react-native-zeroconf": "^0.11.1",
+    "react-redux": "^5.1.1",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "socket.io-client": "^2.2.0",
+    "tslib": "^1.9.3"
+  }
+}

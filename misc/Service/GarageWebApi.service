@@ -1,0 +1,11 @@
+[Unit]
+Description=Garage Door Web Api
+
+[Service]
+Type=simple
+WorkingDirectory=/home/pi/GarageWebApi
+ExecStart=/home/pi/GarageWebApi/GarageWebApi
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

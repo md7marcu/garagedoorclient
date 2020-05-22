@@ -1,0 +1,11 @@
+rootProject.name = 'GarageDoorClient'
+include ':react-native-zeroconf'
+project(':react-native-zeroconf').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-zeroconf/android')
+include ':react-native-zeroconf'
+project(':react-native-zeroconf').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-zeroconf/android')
+
+include ':app'
+include ':ReactAndroid'
+
+project(':ReactAndroid').projectDir = new File(
+    rootProject.projectDir, '../node_modules/react-native/ReactAndroid')
